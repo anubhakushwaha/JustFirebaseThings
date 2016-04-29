@@ -51,7 +51,6 @@ public class Login extends AppCompatActivity {
                 if(flag==0)
                     Toast.makeText(getApplicationContext(),"Wrong password",Toast.LENGTH_LONG).show();
             }
-
             @Override
             public void onCancelled(FirebaseError firebaseError) {
                 System.out.println("The read failed: " + firebaseError.getMessage());
