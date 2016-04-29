@@ -22,7 +22,6 @@ public class Signup extends AppCompatActivity {
         name= (EditText) findViewById(R.id.editText3);
         mail=(EditText) findViewById(R.id.editText4);
         password=(EditText) findViewById(R.id.editText5);
-
         Firebase.setAndroidContext(this);
     }
     public void done(View v)
